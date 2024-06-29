@@ -1,0 +1,60 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101111;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2496b9;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    margin-bottom:7px;
+    background-color: #17d3da;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #2b21b3;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c4a4a4;
+  }
+  
+  #decrement {
+    background-color: #c72c2c;
+    color: #fff;
+  }
+  
+  #increment {
+    background-color: #32b132;
+    color: #fff;
+  }
+  
+  #value {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 20px;
+  }
+
